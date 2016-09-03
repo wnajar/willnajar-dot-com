@@ -23,9 +23,7 @@ $(document).ready(function() {
     var index = {
         '1': 'about-me',
         '2': 'what-i-do',
-        '3': 'other-things-i-do',
-        '4': 'things-i-made',
-        '5': 'contact'
+        '3': 'contact'
     };
 
     //change things to fit if we resize the window
