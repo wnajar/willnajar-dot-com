@@ -43,7 +43,7 @@ $(document).ready(function() {
         $('main, section#' + target).show();
         $('section#' + target + ' div.section-container').just_above_center().fadeIn(1000);
         $('#navigation').fadeIn();
-        if ($('html').attr('state') == 7) {
+        if ($('html').attr('state') == 3) {
             $('#previous-page').fadeIn();
         } else {
             $('#previous-page, #next-page').fadeIn();
@@ -65,7 +65,7 @@ $(document).ready(function() {
             $('section#' + target).show();
             $('section#' + target + ' > div.section-container').just_above_center().fadeIn(1000);
             //show nav arrows
-            if ($('html').attr('state') == 7) {
+            if ($('html').attr('state') == 3) {
                 $('#previous-page').fadeIn();
             } else {
                 $('#previous-page, #next-page').fadeIn();
@@ -82,7 +82,7 @@ $(document).ready(function() {
         console.log('next index is ' + next_index);
         $('section#' + index[next_index]).show();
         $('section#' + index[next_index] + ' > div.section-container').center().fadeIn(1000);
-        if (next_index === 7) {
+        if (next_index === 3) {
             $('#previous-page').fadeIn();
         } else {
             $('#previous-page, #next-page').fadeIn();

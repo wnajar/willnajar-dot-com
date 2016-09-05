@@ -114,12 +114,8 @@ section {
 
 div.section-container {
     display: none;
-    width: 90%;
+    width: 66%;
     margin: 0 auto;
-}
-
-section#things-i-made div.section-container {
-    width: 90%;
 }
 
 section img {
@@ -136,25 +132,6 @@ section p {
     margin: 10px 0;
 }
 
-div.thing-i-built {
-    display: inline-block;
-    margin: 0 15px;
-    position: relative;
-}
-
-div.thing-built-caption {
-    position: absolute;
-    bottom: 32px;
-    left: 33%;
-    padding: 3px 7px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    font-size: 15px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-}
-
 #navigation {
     display: none;
     position: fixed;
@@ -166,7 +143,7 @@ div.thing-built-caption {
 }
 
 #navigation nav {
-    width: 765px;
+    width: 500px;
     height: 40px;
     line-height: 40px;
     margin: 0 auto;
